@@ -1,0 +1,13 @@
+{# Extend Craft control panel #}
+
+{% extends '_layouts/cp' %}
+
+{% includeCssResource('rosetta/css/app.css') %}
+
+{% set tabs = {
+    dashboard: { label: "Dashboard"|t, url: url('rosetta') },
+    settings: { label: "Settings"|t, url: url('rosetta/settings') },
+    examples: { label: "Examples"|t, url: url('rosetta/examples') },
+} %}
+
+{% includeJsResource('rosetta/js/app.js') %}
