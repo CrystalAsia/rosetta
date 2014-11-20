@@ -1,7 +1,7 @@
 rosetta
 =======
 
-Starter Plugin with Twig Tools.
+Starter Plugin for CraftCMS (http://builtwithcraft.com/) with Twig Extensions.
 
 Right now it's just bare bones with no example methods. The goal would be to have a mini example plugin listing entries and showing off examples of the Craft button groups, drag and drop etc so it's easy to implement via copy paste.
 
